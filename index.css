@@ -1,0 +1,104 @@
+body {
+    background: url(/about/img/starbackground.png);
+    animation: slide 40s linear infinite;
+}
+nav {
+    background-color: #333131;
+}
+a {
+    text-decoration: none;
+    color: #EBEBE3;
+}
+a:hover {
+    color: #ff0505;
+}
+.cat {
+    padding-top: 10px;
+}
+.heroimg {
+    background-size: cover;
+    position: relative;
+}
+.herotxt {
+    position: absolute;
+    top: 70%;
+    left: 30%;
+    color: #EBEBE3;
+}
+
+
+.papertext {
+    padding-top: 25px;
+    text-align: center;
+}
+
+.comptext {
+    padding-top: 25px;
+    text-align: center;
+}
+.contactimg {
+    position: relative;
+}
+.ar1 {
+    position: absolute;
+    top: 137%;
+    left: 47.3%;
+}
+.ar2 {
+    position: absolute;
+    top: 210%;
+    left: 25%;
+    transform: rotate(-35deg);
+}
+.ar3 {
+    position: absolute;
+    top: 210%;
+    right: 25%;
+    transform: rotate(35deg);
+}
+
+.glow {
+    height: 60px;
+    width: 60px;
+    background-color: darkgray;
+    color: white;
+    position: absolute;
+    top: 300%;
+    left: 48%;
+    text-align: center;
+    padding-top: 15px;
+}
+
+.context {
+    position: absolute;
+    top: 310%;
+    left: 46%;
+}
+
+.btn {
+    width: 100px;
+    align-self: center;
+}
+footer {
+    background-color: #333131;
+}
+.logoexp {
+    color: #ff0505;
+}
+
+h1 {
+    font-family: 'Spartan', sans-serif;
+}
+
+h3 {
+    font-family: 'Source Code Pro', monospace;  
+}
+
+p {
+    font-family: 'Source Code Pro', monospace;
+}
+
+@keyframes slide {
+    from { background-position: 0 0; }
+    to { background-position: 0 500px; }
+}
